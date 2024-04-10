@@ -1,0 +1,40 @@
+{
+  "name": "car-auction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8090",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "cookies": "^0.9.1",
+    "dotenv": "^16.4.5",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.3",
+    "next": "14.1.4",
+    "next-connect": "^1.0.0",
+    "nprogress": "^0.2.0",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "postcss-preset-env": "^9.5.4",
+    "react": "^18",
+    "react-datetime-picker": "^5.6.0",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.5",
+    "sequelize": "^6.37.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "sequelize-cli": "^6.6.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
